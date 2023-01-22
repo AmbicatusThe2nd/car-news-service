@@ -1,0 +1,34 @@
+{
+  "name": "Car News Service service Api documentation",
+  "version": "1.0.0",
+  "description": "Documentation for the REST api access for Car news service",
+  "title": "REST API for car service",
+  "url": "http://localhost:5000",
+  "sampleUrl": "http://localhost:5000",
+  "output": "/tmp/apidoc-output",
+  "input": [
+    "example"
+  ],
+  "order": [
+    "GetCarNews",
+    "GetNewsId",
+    "PostNews",
+    "PutNews",
+    "DeleteNews",
+    "GetNewsBySearch",
+    "GetNewsByAuthor",
+    "GetNewsByDate"
+  ],
+  "header": {
+    "title": "Welcome"
+  },
+  "footer": {
+    "title": "UM FERI"
+  },
+  "template": {
+    "showRequiredLabels": false,
+    "withCompare": true,
+    "withGenerator": true,
+    "aloneDisplay": false
+  }
+}
